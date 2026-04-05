@@ -25,6 +25,11 @@ Headless commerce and Rest api for ecommerce
 
 Shopizer Headless commerce consists of the following components:
 
+- `sm-core`: the main backend business module. It contains the core service layer, repositories, module integrations, and application configuration used by the headless API.
+- `sm-core-model`: shared core domain model classes used by the backend modules.
+- `sm-core-modules`: pluggable integration modules for shipping, payments, CMS, email, and related services.
+- `sm-shop-model`: shop-facing shared model classes.
+- `sm-shop`: the runnable Spring Boot API that assembles the modules above into the headless application.
 
 Access the headless api: http://localhost:8080/swagger-ui.html
 
