@@ -28,7 +28,7 @@ public class NumberUtilsTest {
     }
 
     @Test
-    public void testIsPositive_largePosive_returnsTrue() {
+    public void testIsPositive_largePositive_returnsTrue() {
         assertTrue(NumberUtils.isPositive(Long.MAX_VALUE));
     }
 
